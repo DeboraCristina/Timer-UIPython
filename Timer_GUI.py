@@ -42,7 +42,7 @@ def definir_tempo():
         [pg.Column(coluna, element_justification='c', pad=10)]
     ]
     # Window
-    win = pg.Window('Definir Tempo', layout, return_keyboard_events=True)
+    win = pg.Window('Definir Tempo', layout, return_keyboard_events=True, icon=ICON)
     # Loop Principal
     while True:
         event, value = win.read()
